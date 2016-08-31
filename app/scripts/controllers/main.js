@@ -2,10 +2,10 @@
 
 /**
  * @ngdoc function
- * @name jerkfolioApp.controller:MainCtrl
+ * @name jerkfolio.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the jerkfolioApp
+ * Controller of the jerkfolio
  */
 angular.module('jerkfolioApp')
   .controller('MainCtrl', function () {

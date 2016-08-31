@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name jerkfolio.controller:AboutCtrl
+ * @name jerkfolio.controller:ContactCtrl
  * @description
- * # AboutCtrl
+ * # ContactCtrl
  * Controller of the jerkfolio
  */
 angular.module('jerkfolioApp')
-  .controller('AboutCtrl', function () {
+  .controller('ContactCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

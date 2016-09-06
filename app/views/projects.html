@@ -25,3 +25,17 @@
   </div>
 </div>
 </div>
+
+<script>
+  $.ajax({
+    type: "GET",
+    url: "https://api.github.com/users/guillermohernandez/repos",
+    dataType: "json",
+    success: function(results) {
+      console.log(results);
+      for (var i = 0; i < results.length; i++){
+console.log(results[i].name);
+      }
+    }
+  });
+</script>
